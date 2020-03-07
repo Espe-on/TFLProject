@@ -57,3 +57,5 @@ _UpgradeReport_Files/
 
 
 .idea/.idea.tfl-project-ts-react.dir/.idea/
+
+.env
