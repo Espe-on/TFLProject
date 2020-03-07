@@ -9,6 +9,7 @@ function App() {
             <header className="App-header">
                 <Particles/>
                 <img src={logo} className="App-logo" alt="logo"/>
+                <p>learn react</p>
             </header>
         </div>
     );
