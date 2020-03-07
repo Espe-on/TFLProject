@@ -3,15 +3,15 @@ import ReactMapGL from 'react-map-gl';
 // import { geolocated } from "react-geolocated";
 
 import './Map.scss';
-
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 const Map = () => {
     const [viewport, setViewport] = useState({
-        width: 600,
-        height: 400,
+        width: 1000,
+        height: 600,
         latitude: 51.412775,
         longitude: -0.082604,
-        zoom: 8
+        zoom: 13
     });
 
     return (
