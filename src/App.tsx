@@ -32,9 +32,9 @@ class App extends Component {
     render() {
         return (
             <div className='App'>
-                <Particles className='particles'
+                {/*<Particles className='particles'
                     params={particlesOptions}
-                />
+                />*/}
                 <Header />
                     <Map />
                 <Footer />
