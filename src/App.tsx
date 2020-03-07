@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.scss';
+import {Header} from "./Components/Header/Header";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <h1>TFL API App!</h1>
-            </header>
+            <Header/>
         </div>
     );
 }
