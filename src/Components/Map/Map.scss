@@ -1,0 +1,9 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    .map{
+        border: solid black 1px;
+    }
+}
