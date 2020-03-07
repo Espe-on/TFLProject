@@ -1,0 +1,1 @@
+export type TravelModes = 'NaptanBusCoachStation' | 'NaptanFerryPort' | 'NaptanLiftCableCarStop' | 'NaptanMetroStation' | 'NaptanRailStation';
