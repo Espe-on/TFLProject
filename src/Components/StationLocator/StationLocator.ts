@@ -1,16 +1,18 @@
 import {Longitude} from "../../Models/Longitude";
 import {Latitude} from "../../Models/Latitude";
 import {TravelModes} from "../../Models/TravelModes";
+import {Url} from "../../Models/Url";
 
 interface stationLocatorProps {
     lon: Longitude;
     lat: Latitude;
-    travelMode: TravelModes;
+    travelMode: TravelModes; 
 }
 
-export function stationLocator(props: stationLocatorProps) {
-    const apiUrl : string = "https://api.tfl.gov.uk/";
+export async function stationLocator(props: stationLocatorProps) {
+    const api : Url = "https://api.tfl.gov.uk/";
     const request : string = `Stoppoint?lat=${props.lat}&lon=${props.lon}&stoptypes=${props.travelMode}`;
-    let reponse = "t";
-    return reponse; 
+    const apiRequest : Url = `${api}${request}`;
+    const apiResponse = await fetch (apiRequest);
+    return await apiResponse.json();
 }
