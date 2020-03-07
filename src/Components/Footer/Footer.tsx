@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.scss'
 
 
-const Footer = () => {
+const Footer : Function = () => {
     return (
         <footer className='app-footer'>
             <h1>
@@ -10,6 +10,6 @@ const Footer = () => {
             </h1>
         </footer>
     )
-}
+};
 
 export default Footer;
