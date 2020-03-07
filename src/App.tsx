@@ -8,7 +8,7 @@ import { ParticlesContainer } from "./Components/Particles/ParticlesContainer";
 export default function App() {
     return (
         <div className='App'>
-            <ParticlesContainer/>
+            {/*<ParticlesContainer/>*/}
             <Header/>
             <Map/>
             <Footer/>
