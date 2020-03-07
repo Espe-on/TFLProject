@@ -55,3 +55,5 @@ yarn-error.log*
 _UpgradeReport_Files/
 [Pp]ackages/
 
+
+.idea/.idea.tfl-project-ts-react.dir/.idea/
